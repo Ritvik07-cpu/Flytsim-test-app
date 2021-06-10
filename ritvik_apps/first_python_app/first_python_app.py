@@ -7,6 +7,7 @@ drone = api.navigation(timeout=120000)  # instance of flyt droneigation class
 # at least 3sec sleep time for the drone interface to initialize properly
 time.sleep(3)
 
+
 print 'Drone taking off to height of 5m'
 drone.take_off(5.0)
 
